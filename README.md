@@ -1,4 +1,4 @@
-# <img src="https://github.com/pip-services/pip-services/raw/master/design/Logo.png" alt="Pip.Services Logo" style="max-width:30%"> <br/> Client library for sample data microservice
+# <img src="https://uploads-ssl.webflow.com/5ea5d3315186cf5ec60c3ee4/5edf1c94ce4c859f2b188094_logo.svg" alt="Pip.Services Logo" width="200"> <br/> Client library for sample data microservice
 
 This is a client library to the sample data microservice. This library shall be used
 as a template to create clients to general purpose data microservices.
