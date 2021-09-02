@@ -18,11 +18,11 @@ suite('EntitiesCommandableLambdaClientV1', () => {
         client = new EntitiesCommandableLambdaClientV1();
 
         let lambdaConfig = ConfigParams.fromTuples(
-            "lambda.connection.protocol", "aws",
-            "lambda.connection.arn", AWS_LAMDBA_ARN,
-            "lambda.credential.access_id", AWS_ACCESS_ID,
-            "lambda.credential.access_key", AWS_ACCESS_KEY,
-            "lambda.options.connection_timeout", 30000
+            "connection.protocol", "aws",
+            "connection.arn", AWS_LAMDBA_ARN,
+            "credential.access_id", AWS_ACCESS_ID,
+            "credential.access_key", AWS_ACCESS_KEY,
+            "options.connection_timeout", 30000
         );
         client.configure(lambdaConfig);
 
