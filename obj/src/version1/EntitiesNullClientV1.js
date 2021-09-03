@@ -22,7 +22,7 @@ class EntitiesNullClientV1 {
             return null;
         });
     }
-    getEntityByName(correlationId, udi) {
+    getEntityByName(correlationId, name) {
         return __awaiter(this, void 0, void 0, function* () {
             return null;
         });

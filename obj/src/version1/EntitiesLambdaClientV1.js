@@ -54,7 +54,7 @@ class EntitiesLambdaClientV1 extends pip_services3_aws_nodex_1.LambdaClient {
             let timing = this.instrument(correlationId, 'v1.entities.get_entity_by_name');
             try {
                 return yield this.call('v1.entities.get_entity_by_name', correlationId, {
-                    name: name
+                    entity_name: name
                 });
             }
             catch (err) {

@@ -20,7 +20,7 @@ class EntitiesCommandableLambdaClientV1 extends pip_services3_aws_nodex_1.Comman
     }
     getEntityByName(correlationId, name) {
         return this.callCommand('get_entity_by_name', correlationId, {
-            name: name
+            entity_name: name
         });
     }
     createEntity(correlationId, entity) {

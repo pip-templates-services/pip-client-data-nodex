@@ -55,7 +55,7 @@ export class EntitiesLambdaClientV1 extends LambdaClient implements IEntitiesCli
                 'v1.entities.get_entity_by_name',
                 correlationId,
                 {
-                    name: name
+                    entity_name: name
                 }
             );
         } catch (err) {

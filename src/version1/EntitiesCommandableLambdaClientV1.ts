@@ -40,7 +40,7 @@ export class EntitiesCommandableLambdaClientV1 extends CommandableLambdaClient i
             'get_entity_by_name',
             correlationId,
             {
-                name: name
+                entity_name: name
             }
         );
     }

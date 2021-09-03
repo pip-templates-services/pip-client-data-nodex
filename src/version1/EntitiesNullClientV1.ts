@@ -15,7 +15,7 @@ export class EntitiesNullClientV1 implements IEntitiesClientV1 {
         return null;
     }
 
-    public async getEntityByName(correlationId: string, udi: string): Promise<EntityV1> {
+    public async getEntityByName(correlationId: string, name: string): Promise<EntityV1> {
         return null;
     }
 

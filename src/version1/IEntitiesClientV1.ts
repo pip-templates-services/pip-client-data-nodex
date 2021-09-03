@@ -10,7 +10,7 @@ export interface IEntitiesClientV1 {
 
     getEntityById(correlationId: string, entityId: string): Promise<EntityV1>;
 
-    getEntityByName(correlationId: string, udi: string): Promise<EntityV1>;
+    getEntityByName(correlationId: string, name: string): Promise<EntityV1>;
 
     createEntity(correlationId: string, entity: EntityV1): Promise<EntityV1>;
 
